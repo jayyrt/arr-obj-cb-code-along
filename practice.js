@@ -4,6 +4,7 @@
 
 function first(arr) {
   //Code here
+  return arr[0];
 }
 
 //////////////////PROBLEM 2////////////////////
@@ -12,6 +13,7 @@ function first(arr) {
 
 function length(arr) {
   //Code here
+  return arr.length;
 }
 
 //////////////////PROBLEM 3////////////////////
@@ -20,6 +22,7 @@ function length(arr) {
 
 function last(arr) {
   //Code here
+  return arr[arr.length - 1];
 }
 
 //////////////////PROBLEM 4////////////////////
@@ -28,6 +31,7 @@ function last(arr) {
 
 function addItem(array, number) {
   //Code here
+  
   return array
 }
 
