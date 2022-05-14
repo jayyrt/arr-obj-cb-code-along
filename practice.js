@@ -31,7 +31,7 @@ function last(arr) {
 
 function addItem(array, number) {
   //Code here
-  
+  array.push(number);
   return array
 }
 
@@ -41,6 +41,7 @@ function addItem(array, number) {
 
 function removeLast(array) {
   //Code here
+  array.pop()
   return array
 }
 
@@ -50,6 +51,7 @@ function removeLast(array) {
 
 function removeFirst(array) {
   //Code here
+  array.shift()
   return array
 }
 
@@ -59,10 +61,9 @@ function removeFirst(array) {
 
 function maker() {
   var numbers = []
-  for (var i = 0; i <= 25; i++) {
-    //Code here
+  for (let i = 0; i <= 25; i++) { // let index start at 0; for every index less than or equal to 25; increment
+   numbers[i] =+ i  // passing index into numbers array will be equal to index incremented until hitting condition 25
   }
-
   return numbers
 }
 
