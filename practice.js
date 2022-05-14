@@ -62,7 +62,7 @@ function removeFirst(array) {
 function maker() {
   var numbers = []
   for (let i = 0; i <= 25; i++) { // let index start at 0; for every index less than or equal to 25; increment
-   numbers[i] =+ i  // passing index into numbers array will be equal to index incremented until hitting condition 25
+    numbers[i] =+ i  // passing index into numbers array will be equal to index incremented until hitting condition 25
   }
   return numbers
 }
@@ -73,9 +73,9 @@ function maker() {
 
 function count31() {
   var numbers = []
-
-  //Code here
-
+  for (let i = 0; i <= 31; i++){
+    numbers[i] =+ i
+  }
   return numbers
 }
 
@@ -90,7 +90,7 @@ function count31() {
 function backWards(arr) {
   var newArray = []
 
-  for (var i = arr.length - 1; i >= 0; i--) {
+  for (let i = arr.length - 1; i >= 0; i--) {
     // code here
   }
 
