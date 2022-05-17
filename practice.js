@@ -91,7 +91,8 @@ function backWards(arr) {
   var newArray = []
 
   for (let i = arr.length - 1; i >= 0; i--) {
-    // code here
+    // code here  
+    return arr;
   }
 
   return newArray
@@ -150,7 +151,7 @@ function personLocation() {
     age: 29,
     location: 'Orem, UT',
   }
-  return // Code Here
+  return person.location;// Code Here
 }
 
 //////////////////PROBLEM 14////////////////////
