@@ -91,7 +91,6 @@ function backWards(arr) {
   var newArray = []
 
   for (let i = arr.length - 1; i >= 0; i--) {
-    // code here  
     return arr;
   }
 
@@ -106,7 +105,13 @@ function backWards(arr) {
 // findInArray([0,1,2,3], 4); -> false
 
 function findInArray(arr, value) {
-  // code here
+  arr = [];
+
+  for (let i = 0; i <= 3; i++) {
+
+  }
+
+  return arr;
 }
 
 //////////////////PROBLEM 11////////////////////
@@ -137,7 +142,7 @@ function personName() {
     age: 29,
     location: 'Orem, UT',
   }
-  return // Code here
+  return person.firstName;
 }
 
 //////////////////PROBLEM 13////////////////////
@@ -151,7 +156,7 @@ function personLocation() {
     age: 29,
     location: 'Orem, UT',
   }
-  return person.location;// Code Here
+  return person.location;
 }
 
 //////////////////PROBLEM 14////////////////////
