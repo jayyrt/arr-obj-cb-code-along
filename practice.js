@@ -108,7 +108,7 @@ function findInArray(arr, value) {
   arr = [];
 
   for (let i = 0; i <= 3; i++) {
-
+    
   }
 
   return arr;
@@ -124,11 +124,13 @@ function findInArray(arr, value) {
 function addTen(arr) {
   var newArr = []
 
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     // code here
+    arr[i] += 10;
+    return arr
   }
 
-  return newArr
+  return newArr;
 }
 
 //////////////////PROBLEM 12////////////////////
